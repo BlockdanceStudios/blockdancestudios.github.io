@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blockdance Studios</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+	<style type="text/css">
+		/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+		body, html {
+			height: 100%
+		}
+
+		.bgimg {
+			/* Background image */
+			background-image: url('eclipse.webp');
+			filter: brightness(50%);
+			/* Full-screen */
+			height: 100%;
+			/* Center the background image */
+			background-position: center;
+			/* Scale and zoom in the image */
+			background-size: cover;
+			/* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+			position: relative;
+			
+			/* Set the font-size to 25 pixels */
+			font-size: 20pt;
+		}
+
+		h1 {
+			/* Add a font */
+			font-family:  "Futura Bold";
+			font-size: 40pt;
+			/* Add a white text color to all elements inside the .bgimg container */
+			color: white;
+		}
+
+		p {
+			font-size: 20pt;
+			color: white;
+		}
+
+		/* Position text in the top-left corner */
+		.topleft {
+			position: absolute;
+			top: 0;
+			left: 16px;
+		}
+
+		/* Position text in the bottom-left corner */
+		.bottomleft {
+			position: absolute;
+			bottom: 0;
+			left: 16px;
+		}
+
+		/* Position text in the middle */
+		.middle {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+
+		/* Style the <hr> element */
+		hr {
+			margin: auto;
+			width: 40%;
+		}
+	</style>
+</head>
+<body>
+	<div class="bgimg"></div>
+	<div>
+		<div class="topleft">
+			<p></p>
+		</div>
+		<div class="middle">
+			<h1>COMING SOON</h1>
+			<hr>
+			<p>contact@blockdance.com</p>
+		</div>
+		<div class="bottomleft">
+			<p></p>
+		</div>
+	</div>
+
+</body>
+</html>
